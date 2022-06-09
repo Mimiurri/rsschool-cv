@@ -28,14 +28,14 @@ function multiply(a, b){
 ```
 
 ## Work experience:
-- Web-Developer, December 2013 – Present   
+- *Web-Developer*, December 2013 – Present   
   Freelance, Hamburg
-- Web-Developer, October 2011 – December 2013   
+- *Web-Developer*, October 2011 – December 2013   
   Megagroup, Saint-Petersburg, Russia
 
 ## Education:
 Saint-Petersburg State University of Economics    
-Organization management
+*Organization management*
 
 ## Languages:
 - English: B1
