@@ -1,6 +1,9 @@
 body {
-    font: 15px Arial, sans-serif;
+    font: 16px Arial, sans-serif;
 }
     h1 {
+        font: 26px Georgia, serif;
+    }
+    h2 {
         font: 22px Georgia, serif;
     }
