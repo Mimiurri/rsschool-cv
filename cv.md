@@ -3,6 +3,7 @@
 ## Contacts
 - Email: [korjenkova@gmail.com](mailto:korjenkova@gmail.com)
 - Telegram: [@Mimiurri](https://t.me/mimiurri)
+- Github: [Mimiurri](https://github.com/Mimiurri)
 - Discord: Mimiuri
 
 ## About Myself:
