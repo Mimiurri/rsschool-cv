@@ -3,10 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <title>Julia Korzhenkova cv</title>
+    <script src="https://kit.fontawesome.com/7950be6812.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,600;1,400&family=Tiro+Telugu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Julia Korzhenkova</h1>
-    <h2>About Myself:</h2>
-    <p>I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I work well in a team but also on my own as I like to set myself goals which I will achieve. I am well organized and always plan ahead to make sure I manage my time well.</p>
+    <div class="container">
+        <header>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about">About</a></li>
+                    <li class="nav-item"><a href="#contacts">Contacts</a></li>
+                    <li class="nav-item"><a href="#experience">Experience</a></li>
+                    <li class="nav-item"><a href="#education">Education</a></li>
+                    <li class="nav-item"><a href="#skills">Skills</a></li>
+                    <li class="nav-item"><a href="#code">Code example</a></li>
+                    <li class="nav-item"><a href="#language">Language</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <aside>
+                <div class="avatar">
+                    <img src="./assets/images/avatar.jpg" alt="avatar">
+                </div>
+                <section id="contacts" class="contacts">
+                    <h2>Contacts</h2>
+                    <ul>
+                        <li><i class="fa-solid fa-at"></i> <a href="mailto:korjenkova@gmail.com">korjenkova@gmail.com</a></li>
+                        <li><i class="fa-brands fa-telegram"></i> @<a href="https://t.me/mimiurri">Mimiurri</a></li>
+                        <li><i class="fa-brands fa-github"></i> <a href="https://github.com/Mimiurri">Mimiurri</a></li>
+                        <li><i class="fa-brands fa-discord"></i> Mimiuri</li>
+                        <li><i class="fa-solid fa-house"></i> Hamburg,Germany</li>
+                    </ul>
+                </section>
+                <section id="education" class="education">
+                    <h2>Education</h2>
+                    <p>
+                        <em>August 2005 — June 2010</em> <br>
+                        Saint-Petersburg State University of Economics<br>
+                        <b>Business Administration</b>
+                    </p>
+                </section>
+                <section id="language" class="language">
+                    <h2>Language</h2>
+                    <ul>
+                        <li>Englisch <span class="level full"></span><span class="level full"></span><span class="level"></span><span class="level"></span></li>
+                        <li>German <span class="level full"></span><span class="level full"></span><span class="level"></span><span class="level"></span></li>
+                        <li>Russian <span class="level full"></span><span class="level full"></span><span class="level full"></span><span class="level full"></span></li>
+                    </ul>
+                </section>
+            </aside>
+            <div class="main-section">
+                <header>
+                    <h1>Julia Korzhenkova</h1>
+                    <p>Junior front-end developer</p>
+                </header>
+                <section id="about" class="about">
+                    <h2>About Myself</h2>
+                    <p>I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I work well in a team but also on my own as I like to set myself goals which I will achieve. I am well organized and always plan ahead to make sure I manage my time well.</p>
+                    <h3>My strengths:</h3>
+                    <ul>
+                        <li>Quick learner</li>
+                        <li>Enthusiasm and creativity</li>
+                        <li>Good in team-work</li>
+                    </ul>
+                    <h3>My weaknesses:</h3>
+                    <ul>
+                        <li>Being too critical of myself</li>
+                    </ul>
+                </section>
+                <section id="experience" class="experience">
+                    <h2>Work experience</h2>
+                    <ul>
+                        <li>
+                            <em>December 2013 — Present</em><br>
+                            <b>Web-Developer</b><br>
+                            Freelance, Hamburg
+                        </li>
+                        <li>
+                            <em>October 2011 — December 2013</em><br>
+                            <b>Web-Developer</b><br>
+                            Megagroup, Saint-Petersburg, Russia
+                        </li>
+                    </ul>
+                </section>
+                <section id="skills" class="skills">
+                    <h2>My skills</h2>
+                    <ul>
+                        <li>HTML <span class="level full"></span><span class="level full"></span><span class="level full"></span><span class="level"></span></li>
+                        <li>CSS <span class="level full"></span><span class="level full"></span><span class="level"></span><span class="level"></span></li>
+                        <li>JavaScript <span class="level full"></span><span class="level"></span><span class="level"></span><span class="level"></span></li>
+                        <li>Photoshop <span class="level full"></span><span class="level full"></span><span class="level full"></span><span class="level"></span></li>
+                    </ul>
+                </section>
+                <section id="code" class="code-example">
+                    <h2>Code example</h2>
+                    <code>
+                        function multiply(a, b) { <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;return (a * b) <br>
+                        }
+                    </code>
+                </section>
+            </div>   
+        </main>
+        <footer>
+            <div class="github"><i class="fa-brands fa-github-alt"></i> <a href="https://github.com/Mimiurri">My Github</a></div>
+            <div class="year">Created in 2022</div>
+            <div class="rss">
+                <a href="https://rs.school/js/"><img src="./assets/images/rs_school_js.png" alt="RSSchool"></a>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
