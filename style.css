@@ -1,9 +1,183 @@
-body {
-    font: 16px Arial, sans-serif;
+* {
+    box-sizing: border-box;
 }
-    h1 {
-        font: 26px Georgia, serif;
+html {
+    scroll-behavior: smooth; 
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    font: 100 16px/1.6 'Noto Sans', sans-serif;
+}
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        box-shadow: 2px 0px 16px 0px #888;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Tiro Telugu', serif;
+        font-weight: normal;
     }
     h2 {
-        font: 22px Georgia, serif;
+        position: relative;
+        padding-bottom: 12px;
+        font-size: 26px;
+    }
+    h3 {
+        margin: 10px 0;
+        font-size: 22px;
+    }
+header {
+    height: 50px;
+    background: #402525;
+}
+    header .nav-list {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    header .nav-item a {
+        padding: 0 20px;
+        line-height: 50px;
+        color: #fafafa;
+        text-decoration: none;
+        transition: .3s;
+    }
+    header .nav-item a:hover {
+        text-decoration: underline;
+    }
+main {
+    display: flex;
+    justify-content: space-between;
+}
+    main section {
+        margin-bottom: 50px;
+    }
+        main section h2:after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 5px;
+            width: 70px;
+            height: 2px;
+            background-color: #222;
+        }
+        main aside section h2:after {
+            background-color: #fefefe;
+        }
+    main aside {
+        flex: none;
+        width: 335px;
+        padding: 50px 40px 40px;
+        background: #555;
+        color: #fefefe;
+    }
+        main aside a {
+            color: #fff;
+        }
+        main aside a:hover {
+            text-decoration: none;
+        }
+        .avatar {
+            height: 255px;
+            overflow: hidden;
+            margin-bottom: 50px;
+            border-radius: 50%;
+        }
+        .avatar img {
+            width: 100%;
+        }
+        .experience ul,
+        .contacts ul,
+        .language ul,
+        .skills ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+            .experience ul li, 
+            .contacts ul li,
+            .skills ul li,
+            .language ul li {
+                margin-bottom: 8px;
+            }
+            .contacts ul li i {
+                font-size: 21px;
+                line-height: 22px;
+                vertical-align: middle;
+                margin-right: 4px;
+            }
+                .language ul li span,
+                .skills ul li span {
+                    display: inline-block;
+                    width: 14px;
+                    height: 14px;
+                    margin-right: 8px;
+                    border: 2px solid #fff;
+                    border-radius: 50%;
+                }
+                .language ul li span:first-child,
+                .skills ul li span:first-child {
+                    margin-left: 20px;
+                }
+                .skills ul li span {
+                    border-color: #222;
+                }
+                .language ul li span.full {
+                    background: #fff;
+                }
+                .skills ul li span.full {
+                    background: #222;
+                }
+    main .main-section {
+        padding: 50px 60px 40px;
+        background: #fafafa;
+    }
+        main .main-section header {
+            background: none;
+            height: auto;
+            margin-bottom: 60px;
+        }
+            main h1 {
+                font-size: 40px;
+                margin-bottom: 5px;
+            }
+            main header p {
+                margin-top: 0;
+                font-size: 19px;
+                font-weight: 400;
+            }
+        main code {
+            display: block;
+            width: 325px;
+            padding: 20px 50px;
+            background: #dfdfdf;
+        }
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 15px 50px;
+    background: #402525;
+    color: #fafafa;
+}
+    footer a {
+        color: #fafafa;
+    }
+        footer a:hover {
+            text-decoration: none;
+        }
+    .rss {
+        width: 121px;
+        height: 100%;
+    }
+    .rss img {
+        width: 100%;
     }
