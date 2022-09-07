@@ -6,7 +6,7 @@
 - Github: [Mimiurri](https://github.com/Mimiurri)
 - Discord: Mimiuri
 
-## About Myself:
+## About Myself
 I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I work well in a team but also on my own as I like to set myself goals which I will achieve. I am well organized and always plan ahead to make sure I manage my time well.
 ### My strengths:
 - Quick learner
@@ -15,7 +15,7 @@ I am an enthusiastic, self-motivated, reliable, responsible and hard working per
 ### My weaknesses:
 - Being too critical of myself
 
-## Skills:
+## Skills
 - HTML
 - CSS 
 - Git/GitHub
@@ -23,22 +23,33 @@ I am an enthusiastic, self-motivated, reliable, responsible and hard working per
 
 ## Code example
 ```
-function multiply(a, b){
-  return (a * b)
+function century(year) {
+  if (year % 100 === 0) {
+    return Math.trunc(year / 100);
+  } else {
+    return Math.trunc(year / 100) + 1;
+  }
 }
 ```
 
-## Work experience:
+## My Projects
+- My CV https://mimiurri.github.io/rsschool-cv/
+- Travel Portal https://rolling-scopes-school.github.io/mimiurri-JSFEPRESCHOOL2022Q2/travel/
+
+## Work experience
 - *Web-Developer*, December 2013 – Present   
   Freelance, Hamburg
 - *Web-Developer*, October 2011 – December 2013   
   Megagroup, Saint-Petersburg, Russia
 
-## Education:
+## Education
+#### University:
 Saint-Petersburg State University of Economics    
 *Organization management*
+#### Courses:
+- Code-basics: JavaScript for beginners
 
-## Languages:
+## Languages
 - English: B1
 - German: B1
 - Russisan: native
